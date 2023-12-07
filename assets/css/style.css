@@ -1,0 +1,90 @@
+.nav-link{
+	color: #F1F1F1;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.onama{
+	text-align: justify;
+}
+
+.form-range{
+	padding: 18px 5px;
+}
+
+.overflow-auto{
+
+	height: 80vh;
+}
+
+/* width */
+.overflow-auto::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.overflow-auto::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.overflow-auto::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.overflow-auto::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: red;
+            opacity: 0.5;           
+}
+
+#futer{
+  margin-top: 133px;
+}
+
+#red{
+  padding-top: 100px;
+  padding-bottom: 113px;
+}
+
+footer{
+    
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#ikone{
+  width: 300px;
+  height: 70px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  
+}
+
+#ikone ul{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+#ikone ul li{
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 25px;
+  
+}
+
+#copyright{
+width: 150px;
+height: 70px;
+margin-left: 900px;
+
+}
